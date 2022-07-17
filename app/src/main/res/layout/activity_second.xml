@@ -16,7 +16,7 @@
         android:background="@color/black"
         android:textAlignment="textEnd"
         android:theme="@style/Theme.AppCompat.Light.DarkActionBar"
-        app:title="Smart Health and Fitness"
+        app:title="Smart Health &amp; Fitness"
         app:titleTextColor="#FFF" />
 
     <LinearLayout

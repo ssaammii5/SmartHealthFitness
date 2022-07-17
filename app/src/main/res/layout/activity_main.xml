@@ -8,6 +8,7 @@
     android:orientation="vertical"
     tools:context=".MainActivity">
 
+
     <androidx.appcompat.widget.Toolbar
         android:id="@+id/toolBar"
         android:layout_width="match_parent"
@@ -16,7 +17,7 @@
         android:gravity="end"
         android:textAlignment="textEnd"
         android:theme="@style/Theme.AppCompat.Light.DarkActionBar"
-        app:title="Smart Health and Fitness"
+        app:title="Smart Health &amp; Fitness"
         app:titleTextColor="@color/white" />
 
     <ScrollView
@@ -60,7 +61,7 @@
                             android:layout_height="wrap_content"
                             android:fontFamily="monospace"
                             android:padding="5dp"
-                            android:text="Before Age 18"
+                            android:text="Pre-teen, Aged Persons"
                             android:textColor="#ff000000"
                             android:textSize="20dp"
                             android:textStyle="bold" />
@@ -78,7 +79,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:padding="5dp"
-                            android:text="Everyday 10 Minute"
+                            android:text="Everyday 8 Minute"
                             android:textColor="#ffff5722"
                             android:textStyle="bold" />
                     </LinearLayout>
@@ -151,7 +152,7 @@
                             android:layout_height="wrap_content"
                             android:fontFamily="monospace"
                             android:padding="5dp"
-                            android:text="After Age 18"
+                            android:text="Young &amp; Adults"
                             android:textColor="#ff000000"
                             android:textSize="20dp"
                             android:textStyle="bold" />
@@ -169,7 +170,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:padding="5dp"
-                            android:text="Everyday 15 Minute"
+                            android:text="Everyday 20 Minute"
                             android:textColor="#ffff5722"
                             android:textStyle="bold" />
                     </LinearLayout>
@@ -240,7 +241,7 @@
                             android:layout_height="wrap_content"
                             android:fontFamily="monospace"
                             android:padding="5dp"
-                            android:text="BMI CALCULATOR"
+                            android:text="BMI Calculator"
                             android:textColor="#ff000000"
                             android:textSize="20dp"
                             android:textStyle="bold" />
@@ -250,6 +251,7 @@
                             android:layout_height="wrap_content"
                             android:padding="5dp"
                             android:text="Measure your BMI"
+                            android:textColor="#8c8c8c"
                             android:textStyle="bold" />
 
                     </LinearLayout>
